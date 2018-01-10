@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+}
+body{
+  background-color: #2196F3;
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+#title{
+  font-family: Palatino;
+  font-weight: bold;
+}
+#quote-content{
+  font-family: Garamond;
+}
+#quote-author{
+  font-family: Garamond;
+}
+#generate{
+  position: fixed;
+  background:linear-gradient(#1E88E5,#2196F3,#42A5F5,#64B5F6);
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 20px;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+  border:10px solid #2196F3 ;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #2196F3;
+  color: white;
+}
