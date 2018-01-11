@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+<link rel="stylesheet" href="./css/phone.css" media="screen and (max-width: 479px)">
+<link rel="stylesheet" href="./css/styles.css" media="screen and (min-width: 480px">
+<script src="./js/libs/jquery.min.js"></script>
+<link rel="stylesheet" href="./bootstrap/bootstrap.css">
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>@SssrntyWp - Pomodoro Clock</title>
+</head>
+<body>
+	<h1>Pomodoro Clock</h1><br>
+	<p id="desc">Break Time</p>
+	<div id="break">
+		<div id="firstB">
+		<button class="btn bt-default" id="break5Min">-</button></div>
+		<p id="min">25</p>
+		<div id="firstB">
+		<button class="btn bt-default" id="break5Add">+</button>
+		</div>		
+	</div><br><br>
+	<p id="desc">Session</p>
+	<div id="timer">
+		<div id="firstB">
+		<button class="btn bt-default" id="timer5Min">-</button></div>
+		<p id="time">25</p>
+		<div id="firstB">
+		<button class="btn bt-default" id="timer5Add">+</button></div>
+	</div><br>
+	<div id="firstB">
+	<button class="btn btn-success" id="start">Start</button>
+	</div>
+	<div id="clock">Time left:<p id="currTime"></p></div>
+	<div id="firstB">
+	<button class="btn btn-success" id="reset">Reset</button>
+	</div>
+	<audio id="music" src="./audio/analog-watch-alarm_daniel-simion.mp3" type="audio/mpeg4"></audio>
+<script src="./js/myjs.js"></script>
+</body>
+</html>
