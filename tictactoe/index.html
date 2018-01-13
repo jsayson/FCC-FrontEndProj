@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>@SssrntyWP - TicTacToe</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" href="./css/phone.css" media="screen and (max-width: 479px)">
+	<script src="./js/libs/jquery.min.js"></script>
+	<link rel="stylesheet" href="./bootstrap/bootstrap.css">
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	html, body{
+		height: 100%;
+		width: 100%;
+	}
+	</style>
+</head>
+<body class="text-center">
+	<div><h1>TicTacToe</h1></div>
+	<div id="board">
+		<table>
+			<tr>
+				<td class="cell" id="0"></td>
+				<td class="cell" id="1"></td>
+				<td class="cell" id="2"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="3"></td>
+				<td class="cell" id="4"></td>
+				<td class="cell" id="5"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="6"></td>
+				<td class="cell" id="7"></td>
+				<td class="cell" id="8"></td>
+			</tr>						
+		</table>
+	</div>
+	<div class="endGame">
+		<div class="callWinner"></div>
+	</div>
+	<button id="startGame" class="btn btn-success">Start</button>
+	<script src="./js/myjs.js"></script>
+</body>
+</html>
